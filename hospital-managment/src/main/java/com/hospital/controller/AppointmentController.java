@@ -19,7 +19,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("api/appointment")
+@RequestMapping("/appointment")
 @CrossOrigin(origins = "*")
 public class AppointmentController {
 
